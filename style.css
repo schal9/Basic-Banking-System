@@ -1,0 +1,225 @@
+nav,header,footer{
+	display: block;
+}
+html{
+	height: 100%;
+}
+
+body{
+	margin: 0;
+	background-image: linear-gradient(white,cadetblue);
+	    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.text-center {
+    text-align: center!important;
+}
+.container-fluid{
+	font-size: 21px;
+	font-family: Times New Roman;
+
+}
+
+nav{
+background-color: #19334d;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: #fff;
+}
+.nav-link{
+	color: #fff;
+}
+
+@media (min-width: 768px){
+.col-md {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+}
+h1{
+	color: #fff;
+}
+h2{
+	color: #fff;
+	font-family: Playball;
+	letter-spacing: 2px;
+}
+
+.bank-services{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+}
+
+
+.s-heading h1{
+        color: #576975;
+        font-family: Playball;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px #ddd;
+        margin-bottom: 0;
+        text-align: center;
+        margin-top: 3%;
+        font-size: 3rem;
+}
+@media screen and (max-width: 768px){
+	.s-heading h1{
+		font-size: 10vw;
+		margin-top: 10%;
+	}
+}
+.s-heading p{
+        color: rgba(85,105,117,0.6);
+        font-size: 1rem;
+        margin: 5 px;
+        text-align: center;
+}
+.box-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.s-box img{
+        height: 100px;
+}
+.s-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        height: 300px;
+        padding: 35px;
+        box-sizing: border-box;
+        margin-bottom: 100px;
+        margin-top: 30px;
+        position: relative;
+        border-color: white;
+        /* box-shadow: 2px 2px 30px rgba(0,0,0,0.2); */
+}
+.s-box h1{
+        color: black;
+        letter-spacing: 1px;
+        font-size: 1.5rem;
+        font-family: sans-serif;
+        margin-bottom: 8px;
+        margin-top: 4px;
+        font-weight: bold;
+        text-shadow: 1.5px 1.5px cornflowerblue;
+}
+.s-box p{
+        color:rgba(85,105,117,0.9);
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 16px;
+}
+.s-btn{
+        width: 140px;
+        height: 40px;
+        border-radius: 20px;
+        border: 1.6px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000;
+        margin-top: 10px;
+        text-decoration: none;
+}
+.s-box:hover{
+        box-shadow: 4px 4px 30px rgba(0,0,0,0.09);
+        transition: all ease 0.3s;
+}
+.s-btn:hover{
+        background-color: cornflowerblue;
+        border: 1px solid cornflowerblue;
+        color: #ffffff;
+        transition: all ease 0.3s;
+
+}
+.bar{
+        width: 100px;
+        height: 6px;
+        position: absolute;
+        left: 50%;
+        top: 0px;
+        transform: translateX(-50%);
+        background-color: white;
+        border-radius: 0px 0px 10px 10px ;
+        display: none;
+        animation: bar 0.5s;
+}
+.s-box:hover .bar{
+        display: block;
+}
+@keyframes bar{
+        0%{
+                width: 0px;
+        }
+        100%{
+                width: 100px;
+        }
+}
+
+.btn-lg{
+  position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.btn-lg:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.card{
+  margin: 2rem;
+}
+@media screen and (max-width: 768px){
+    .table{
+        font-size: 15px;
+        margin-bottom: 30%;
+    }
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #132639;
+   color: white;
+   text-align: center;
+   letter-spacing: 1px;
+   padding: 3px;
+
+}
+
