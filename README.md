@@ -1,4 +1,4 @@
-# Basic Banking System : TASK-1 GRIP @ THE SPARKS FOUNDATION WEB DEVELOPMENT INTERNSHIP
+### Basic Banking System : TASK-1 GRIP @ THE SPARKS FOUNDATION WEB DEVELOPMENT INTERNSHIP
 A dynamic website is created. It is used to transfer money between multiple users (Project contains 10 dummy users).
 
 Stack used -
